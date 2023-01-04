@@ -32,6 +32,54 @@
           width: 100%;
         }
       }
+      /* Add general styling here */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      header {
+        background-color: deepskyblue;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      nav ul li {
+        margin: 0 10px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      main {
+        padding: 20px;
+      }
+      .work-item {
+        display: flex;
+        align-items: center;
+        margin: 0 0 20px 0;
+      }
+      .work-item img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+      footer {
+        background-color: deepskyblue;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -49,27 +97,3 @@
       <section id="about">
         <h2>About</h2>
         <p>Welcome to my portfolio! My name is Experimental Artist and I am an artist who enjoys pushing the boundaries and experimenting with new mediums and techniques.</p>
-      </section>
-      <section id="work">
-        <h2>Work</h2>
-        <h3>Series 1</h3>
-        <div class="work-item">
-          <img src="series1-artwork1.jpg" alt="Artwork 1 from Series 1">
-          <p>This artwork explores the use of unconventional materials in abstract compositions.</p>
-        </div>
-        <div class="work-item">
-          <img src="series1-artwork2.jpg" alt="Artwork 2 from Series 1">
-          <p>This piece experiments with layering and texture in a minimalist style.</p>
-        </div>
-        <h3>Series 2</h3>
-        <div class="work-item">
-          <img src="series2-artwork1.jpg" alt="Artwork 1 from Series 2">
-          <p>This series is inspired by nature and uses vibrant colors and organic shapes.</p>
-        </div>
-        <div class="work-item">
-          <img src="series2-artwork2.jpg" alt="Artwork 2 from Series 2">
-          <p>This piece is a mixed media collage that incorporates found objects and paint.</p>
-        </div>
-      </section>
-      <section id="contact">
-        <h2>Contact</h2
