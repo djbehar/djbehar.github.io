@@ -1,7 +1,75 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+  <head>
+    <meta charset="utf-8">
+    <title>Experimental Artist | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* Add mobile-specific styling here */
+      @media only screen and (max-width: 600px) {
+        /* Make the header and nav elements take up the full width of the screen */
+        header, nav {
+          width: 100%;
+        }
+        /* Stack the header elements vertically */
+        header h1, nav ul {
+          display: block;
+          width: 100%;
+          text-align: center;
+        }
+        /* Stack the nav list items vertically */
+        nav ul li {
+          display: block;
+          width: 100%;
+        }
+        /* Make the work items stack vertically on smaller screens */
+        .work-item {
+          display: block;
+          width: 100%;
+          margin: 0 0 20px 0;
+        }
+        .work-item img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Experimental Artist</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>Welcome to my portfolio! My name is Experimental Artist and I am an artist who enjoys pushing the boundaries and experimenting with new mediums and techniques.</p>
+      </section>
+      <section id="work">
+        <h2>Work</h2>
+        <h3>Series 1</h3>
+        <div class="work-item">
+          <img src="series1-artwork1.jpg" alt="Artwork 1 from Series 1">
+          <p>This artwork explores the use of unconventional materials in abstract compositions.</p>
+        </div>
+        <div class="work-item">
+          <img src="series1-artwork2.jpg" alt="Artwork 2 from Series 1">
+          <p>This piece experiments with layering and texture in a minimalist style.</p>
+        </div>
+        <h3>Series 2</h3>
+        <div class="work-item">
+          <img src="series2-artwork1.jpg" alt="Artwork 1 from Series 2">
+          <p>This series is inspired by nature and uses vibrant colors and organic shapes.</p>
+        </div>
+        <div class="work-item">
+          <img src="series2-artwork2.jpg" alt="Artwork 2 from Series 2">
+          <p>This piece is a mixed media collage that incorporates found objects and paint.</p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2
