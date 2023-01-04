@@ -74,11 +74,46 @@
         border-radius: 50%;
         margin-right: 20px;
       }
+      .work-item p {
+        font-size: 16px;
+      }
       footer {
         background-color: deepskyblue;
         color: white;
         padding: 20px;
         text-align: center;
+      }
+      /* Add additional styling for colors and shapes */
+      section {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      h2 {
+        color: deepskyblue;
+      }
+      form label {
+        display: block;
+        margin: 0 0 10px 0;
+        font-weight: bold;
+      }
+      form input[type="text"], form textarea {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        box-sizing: border box;
+      }
+      form input[type="submit"] {
+        background-color: deepskyblue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      form input[type="submit"]:hover {
+        background-color: lightblue;
       }
     </style>
   </head>
@@ -97,3 +132,32 @@
       <section id="about">
         <h2>About</h2>
         <p>Welcome to my portfolio! My name is Experimental Artist and I am an artist who enjoys pushing the boundaries and experimenting with new mediums and techniques.</p>
+      </section>
+      <section id="work">
+        <h2>Work</h2>
+        <h3>Series 1</h3>
+        <div class="work-item"><img src="series1-artwork1.jpg" alt="Artwork 1 from Series 1"><p>This artwork explores the use of unconventional materials in abstract compositions.</p></div>
+        <div class="work-item"><img src="series1-artwork2.jpg" alt="Artwork 2 from Series 1"><p>This piece experiments with layering and texture in a minimalist style.</p></div>
+        <h3>Series 2</h3>
+        <div class="work-item"><img src="series2-artwork1.jpg" alt="Artwork 1 from Series 2"><p>This series is inspired by nature and uses vibrant colors and organic shapes.</p></div>
+        <div class="work-item"><img src="series2-artwork2.jpg" alt="Artwork 2 from Series 2"><p>This piece is a mixed media collage that incorporates found objects and paint.</p></div>
+       </section>
+       <section id="contact">
+        <h2>Contact</h2><p>If you are interested in purchasing a piece or collaborating on a project, please don't hesitate to reach out via the form below or at experimentalartist@gmail.com.</p>
+<form>
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name"><br>
+<label for="email">Email:</label><br>
+<input type="text" id="email" name="email"><br>
+<label for="message">Message:</label><br>
+<textarea id="message" name="message"></textarea><br>
+<input type="submit" value="Submit">
+</form>
+</section>
+</main>
+<footer>
+<p>Copyright Experimental Artist 2021</p>
+</footer>
+
+  </body>
+</html>
